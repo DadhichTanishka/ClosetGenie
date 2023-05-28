@@ -74,7 +74,7 @@ function ResponsiveAppBar() {
       maxWidth="xxl"
       >
         <Toolbar disableGutters>
-       <Link to="/homeMain"> <Box sx={{ display: { xs: 'none', md: 'flex' },  mr: 1 }} ><img src="https://closetgenie.netlify.app/a2.png" alt="logo" style={{height:100}} />
+       <Link to="/homeMain"> <Box sx={{ display: { xs: 'none', md: 'flex' },  mr: 1 }} ><img src="https://closetgenie.netlify.app/a2.png" alt="logo" style={{height:40}} />
        </Box></Link>
           <Typography
             variant="h6"
@@ -128,7 +128,7 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
-          <Link to="/homeMain"><Box sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} ><img src="https://closetgenie.netlify.app/a2.png" alt="logo" style={{height:50}} /></Box></Link>
+          <Link to="/homeMain"><Box sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} ><img src="https://closetgenie.netlify.app/a2.png" alt="logo" style={{height:30}} /></Box></Link>
           <Typography
             variant="h5"
             noWrap

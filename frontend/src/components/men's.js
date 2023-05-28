@@ -84,7 +84,7 @@ const updateCategory=(e)=>{
                return(
                 <div className="tops" onClick={updateCategory}>
                    {image.title }
-                  <div style={{boxShadow:"0px -5px 10px 0px rgba(0, 0, 0, 0.5)"}}> <img width="100vw" src={`${process.env.REACT_APP_IMAGE_URL}/images/category/men/${image.img}`} alt={image.title}/></div>
+                  <div > <img width="100vw" src={`${process.env.REACT_APP_IMAGE_URL}/images/category/men/${image.img}`} alt={image.title}/></div>
                 </div>
                )
               
